@@ -1,0 +1,193 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "description": "Photo album markers configuration. To add a new location or photo, simply add an entry following the examples below.",
+    
+    "_instructions": [
+        "HOW TO ADD A NEW PHOTO TO AN EXISTING LOCATION:",
+        "  1. Place your image file in the public/images/ folder",
+        "  2. Find the location id in the 'markers' array below",
+        "  3. Add a new entry to that location's 'images' array with 'path' and 'caption'",
+        "",
+        "HOW TO ADD A NEW LOCATION:",
+        "  1. Copy one of the existing marker objects in the 'markers' array",
+        "  2. Update lat, lng, name, caption, and images",
+        "  3. You can find lat/lng coordinates at https://www.latlong.net/",
+        "",
+        "TIP: Image paths are relative to the public/ folder.",
+        "     Example: 'images/paris_1.jpg' means the file is at public/images/paris_1.jpg"
+    ],
+
+    "albumTitle": "A Life Well Traveled",
+    "albumSubtitle": "From all of nest, with love. Congratulations on your retirement!",
+    "defaultImageBasePath": "images",
+
+    "markers": [
+        {
+            "id": "chennai",
+            "lat": 13.0827,
+            "lng": 80.2707,
+            "name": "Chennai",
+            "caption": "Singara Chennai",
+            "images": [
+                {
+                    "path": "images/chennai_1.jpg",
+                    "caption": "Ambattur house: green tiles and fam."
+                },
+                {
+                    "path": "images/chennai_2.jpg",
+                    "caption": "Our anna at Anna Nagar"
+                }
+            ]
+        },
+        {
+            "id": "hyderabad",
+            "lat": 17.3850,
+            "lng": 78.4867,
+            "name": "Hyderabad",
+            "caption": "HiTech City",
+            "images": [
+                {
+                    "path": "images/hyderabad_1.jpg",
+                    "caption": "Venkatraman @ Ramoji Film City."
+                }
+            ]
+        },
+        {
+            "id": "new_york",
+            "lat": 40.7128,
+            "lng": -74.0060,
+            "name": "New York City",
+            "caption": "Across the seas for Saravana Bhavan",
+            "images": [
+                {
+                    "path": "images/new_york_1.jpg",
+                    "caption": "Liberty Island Couple"
+                },
+                {
+                    "path": "images/new_york_2.jpg",
+                    "caption": "Spending time at Times Square"
+                }
+            ]
+        },
+        {
+            "id": "dharwad",
+            "lat": 15.4589,
+            "lng": 75.0060,
+            "name": "Dharwad",
+            "caption": "Cultural capital of Karnataka",
+            "images": [
+                {
+                    "path": "images/dharwad_1.jpg",
+                    "caption": "Dharwad Diwali Dhamaka. S/O mono for the lights!"
+                }
+            ]
+        },
+        {
+            "id": "honnavar",
+            "lat": 14.2833,
+            "lng": 74.4333,
+            "name": "Honnavar",
+            "caption": "Where the sea meets the hills",
+            "images": [
+                {
+                    "path": "images/honnavar_1.jpg",
+                    "caption": "Vibes with LIC"
+                }
+            ]
+        },
+        {
+            "id": "kodaikanal",
+            "lat": 10.2381,
+            "lng": 77.4898,
+            "name": "Kodaikanal",
+            "caption": "Summers at Kodai",
+            "images": [
+                {
+                    "path": "images/kodaikanal_1.jpg",
+                    "caption": "Hills with the boys"
+                }
+            ]
+        },
+        {
+            "id": "agra",
+            "lat": 27.1767,
+            "lng": 78.0081,
+            "name": "Agra",
+            "caption": "Memories fresher than marble",
+            "images": [
+                {
+                    "path": "images/agra_1.jpg",
+                    "caption": "Early days"    
+                }
+            ]
+        },
+        {
+            "id": "singapore",
+            "lat": 1.3521,
+            "lng": 103.8198,
+            "name": "Singapore",
+            "caption": "Ninaithaaley inikkum",
+            "images": [
+                {
+                    "path": "images/singapore_1.jpg",
+                    "caption": "Marina Bay Sands. Favourite building?"
+                },
+                {
+                    "path": "images/singapore_2.jpg",
+                    "caption": "Two lions"
+                },
+                {
+                    "path": "images/singapore_3.jpg",
+                    "caption": "Universal Studios Singapore. Really tasty ice cream too!"
+                },
+                {
+                    "path": "images/singapore_4.jpg",
+                    "caption": "On top of the world at Marina Bay Sands SkyPark."
+                },
+                {
+                    "path": "images/singapore_5.jpg",
+                    "caption": "At the bottom of the ocean at S.E.A. Aquarium."
+                }
+            ]
+        },
+        {
+            "id": "udumalpet",
+            "lat": 10.5000,
+            "lng": 77.0000,
+            "name": "Udumalpet",
+            "caption": "College days",
+            "images": [
+                {
+                    "path": "images/udumalpet_1.jpg",
+                    "caption": "Journey from Udulmalpet to Alwarpet"
+                }
+            ]
+        },
+        {
+            "id": "washington",
+            "lat": 38.9072,
+            "lng": -77.0369,
+            "name": "Washington D.C.",
+            "caption": "Washington Venkatraman",
+            "images": [
+                {
+                    "path": "images/washington_1.jpg",
+                    "caption": "White house with the leader of the house ( you choose who )"
+                }
+            ]
+        },
+        {
+            "id": "masai_mara",
+            "lat": -1.4061,
+            "lng": 35.0200,
+            "name": "Masai Mara",
+            "caption": "Future trip?",
+            "images": [
+                {
+                    "path": "images/masai_mara_1.jpg",
+                    "caption": "Much to look forward to!"
+                }
+            ]
+        }
+    ]
+}

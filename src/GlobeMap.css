@@ -1,0 +1,61 @@
+.globe-container {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: #111;
+  margin: 0;
+  padding: 0;
+  z-index: 1;
+  user-select: none;
+  -webkit-user-select: none; 
+  
+  /* Disables the "ghost image" drag behavior */
+  -webkit-user-drag: none;
+  
+  /* Ensures touches don't trigger browser scrolling/gestures */
+  touch-action: none; 
+}
+
+.globe-popup {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0,0,0,0.35);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 10;
+}
+
+.globe-popup-inner {
+  background: rgba(255,255,255,0.15);
+  backdrop-filter: blur(12px) saturate(1.5);
+  border-radius: 18px;
+  box-shadow: 0 8px 32px #0006;
+  padding: 2rem 2.5rem 1.5rem 2.5rem;
+  min-width: 320px;
+  max-width: 90vw;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.close-btn {
+  margin-top: 1rem;
+  background: #222;
+  color: #fff;
+  border: none;
+  border-radius: 1em;
+  padding: 0.5em 1.5em;
+  font-size: 1rem;
+  cursor: pointer;
+  box-shadow: 0 2px 8px #0002;
+  transition: background 0.2s;
+}
+.close-btn:hover {
+  background: #444;
+}
