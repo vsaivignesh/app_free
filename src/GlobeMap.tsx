@@ -84,7 +84,7 @@ const GlobeMap = () => {
       </div>
       <Globe
         ref={globeEl}
-        globeImageUrl="/earth.jpg"
+        globeImageUrl={import.meta.env.BASE_URL + 'earth.jpg'}
         backgroundColor="#222"
         labelsData={markers}
         labelLat={(d: any) => d.lat}
@@ -107,7 +107,7 @@ const GlobeMap = () => {
             {selected.images && selected.images.length > 0 && (
               <div style={{ position: 'relative', width: '100%', display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
                 <img
-                  src={`/${selected.images[imageIdx].path}`}
+                  src={import.meta.env.BASE_URL + selected.images[imageIdx].path}
                   alt={selected.images[imageIdx].caption}
                   style={{
                     maxWidth: '90vw',
