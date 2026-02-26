@@ -36,6 +36,40 @@
                 {
                     "path": "images/chennai_2.jpg",
                     "caption": "Our anna at Anna Nagar"
+                },
+                {
+                    "path": "images/chennai_3.jpg",
+                    "caption": "Pooja at home"
+                },
+                {
+                    "path": "images/chennai_4.jpg",
+                    "caption": "Chennai B&AC"
+                }
+            ]
+        },
+        {
+            "id": "thanjavur",
+            "lat": 10.7867,
+            "lng": 79.1378,
+            "name": "Thanjavur",
+            "caption": "Land of the Cholas",
+            "images": [
+                {   
+                    "path": "images/thanjavur_1.jpg",
+                    "caption": "SDM Thanjavur"
+                }
+            ]
+        },
+        {
+            "id": "andaman",
+            "lat": 11.7401,
+            "lng": 92.6586,
+            "name": "Andaman Islands",
+            "caption": "Paradise in the Bay of Bengal",
+            "images": [
+                {
+                    "path": "images/andaman_1.jpg",
+                    "caption": "Andha Naal @ Andaman"
                 }
             ]
         },
@@ -79,6 +113,10 @@
                 {
                     "path": "images/dharwad_1.jpg",
                     "caption": "Dharwad Diwali Dhamaka. S/O mono for the lights!"
+                },
+                {
+                    "path": "images/dharwad_2.jpg",
+                    "caption": "SDM Dharwad"
                 }
             ]
         },
@@ -92,6 +130,19 @@
                 {
                     "path": "images/honnavar_1.jpg",
                     "caption": "Vibes with LIC"
+                }
+            ]
+        },
+        {
+            "id": "dandeli",
+            "lat": 15.3167,
+            "lng": 74.7833,
+            "name": "Dandeli",
+            "caption": "Adventures in the Western Ghats",
+            "images": [
+                {
+                    "path": "images/dandeli_1.jpg",
+                    "caption": "Dangling in Dandeli"
                 }
             ]
         },
