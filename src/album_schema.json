@@ -44,6 +44,23 @@
                 {
                     "path": "images/chennai_4.jpg",
                     "caption": "Chennai B&AC"
+                },
+                {
+                    "path": "images/chennai_5.jpg",
+                    "caption": "Trying not to laugh during pooja"
+                }
+            ]
+        },
+        {
+            "id": "pahalgam",
+            "lat": 33.7300,
+            "lng": 75.1500,
+            "name": "Pahalgam",
+            "caption": "Kashmir beautiful Kashmir",
+            "images": [
+                {
+                    "path": "images/pahalgam_1.jpg",
+                    "caption": "Pahalgam with the family (and Baasha)"
                 }
             ]
         },
@@ -100,6 +117,36 @@
                 {
                     "path": "images/new_york_2.jpg",
                     "caption": "Spending time at Times Square"
+                },
+                {
+                    "path": "images/new_york_3.jpg",
+                    "caption": "Chilling 100 floors above NYC"
+                }
+            ]
+        },
+        {
+            "id": "niagara",
+            "lat": 43.0962,
+            "lng": -79.0377,
+            "name": "Niagara Falls",
+            "caption": "Nature's power on display",
+            "images": [
+                {
+                    "path": "images/niagara_1.jpg",
+                    "caption": "Falling for your beauty"
+                }
+            ]
+        },
+        {
+            "id": "gujarat",
+            "lat": 22.2587,
+            "lng": 71.1924,
+            "name": "Gujarat",
+            "caption": "Land of the Mahatma",
+            "images": [
+                {
+                    "path": "images/gujarat_1.jpg",
+                    "caption": "Colours of Gujarat"
                 }
             ]
         },
@@ -143,6 +190,14 @@
                 {
                     "path": "images/dandeli_1.jpg",
                     "caption": "Dangling in Dandeli"
+                },
+                {
+                    "path": "images/dandeli_2.jpg",
+                    "caption": "Dangling in Dandeli again"
+                },
+                {
+                    "path": "images/dandeli_3.jpg",
+                    "caption": "Rapids as ferocious as Kali"
                 }
             ]
         },
@@ -198,6 +253,10 @@
                 {
                     "path": "images/singapore_5.jpg",
                     "caption": "At the bottom of the ocean at S.E.A. Aquarium."
+                },
+                {
+                    "path": "images/singapore_6.jpg",
+                    "caption": "Namaste from NaMo"
                 }
             ]
         },
